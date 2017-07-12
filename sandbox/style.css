@@ -32,7 +32,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border: 10px solid goldenrod;
-  min-height: 100vh;
-  // usage 		  row || row-reverse || column || column-reverse
-  flex-direction: row
+  height: 100vh;
+  flex-wrap: wrap; /* nowrap || wrap || wrap-reverse */
+}
+
+.box {
+	width: 33.3333333%;
+	border: 10px solid mistyrose;
 }
